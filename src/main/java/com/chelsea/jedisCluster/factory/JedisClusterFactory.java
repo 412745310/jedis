@@ -1,4 +1,4 @@
-package com.chelsea.redisSpringCluster.factory;
+package com.chelsea.jedisCluster.factory;
 
 import java.text.ParseException;
 import java.util.HashSet;

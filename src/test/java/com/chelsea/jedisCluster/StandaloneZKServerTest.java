@@ -1,4 +1,4 @@
-package com.chelsea.redisSpringCluster;
+package com.chelsea.jedisCluster;
 
 import org.junit.Before;
 import org.junit.Test;

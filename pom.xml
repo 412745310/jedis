@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.chelsea</groupId>
-  <artifactId>redisSpringCluster</artifactId>
+  <artifactId>jedisCluster</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>redisSpringCluster</name>
+  <name>jedisCluster</name>
   <url>http://maven.apache.org</url>
 
   <properties>
