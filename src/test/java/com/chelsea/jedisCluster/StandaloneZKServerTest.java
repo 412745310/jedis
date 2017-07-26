@@ -12,7 +12,7 @@ public class StandaloneZKServerTest{
 	ApplicationContext ctx = null;
 	JedisCluster jedis = null;
 	
-	@Before
+	@Before 
 	public void init(){
 		ctx = new ClassPathXmlApplicationContext("spring.xml");
 		jedis = (JedisCluster)ctx.getBean("jedisCluster");
