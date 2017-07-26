@@ -15,7 +15,7 @@ public class StandaloneZKServerTest{
 	@Before 
 	public void init(){
 		ctx = new ClassPathXmlApplicationContext("spring.xml");
-		jedis = (JedisCluster)ctx.getBean("jedisCluster");
+		jedis = (JedisCluster)ctx.getBean("jedisCluster ");
 	}
 	
 	@Test
